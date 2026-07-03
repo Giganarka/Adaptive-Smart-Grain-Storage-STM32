@@ -1,23 +1,29 @@
-# Keil
+# Keil temporary files
+Objects/
+Listings/
+RTE/
+
 *.bak
 *.dep
 *.crf
-*.uvgui.*
+*.lnp
+*.o
+*.axf
+*.map
+*.lst
 *.uvoptx
-*.htm
-
-# Build
-Objects/
-Listings/
+*.uvgui.*
 
 # Python
 __pycache__/
 *.pyc
 
+# Windows
+Thumbs.db
+Desktop.ini
+
 # VS Code
 .vscode/
 
-# Temporary
+# Log files
 *.log
-*.tmp
-Thumbs.db
